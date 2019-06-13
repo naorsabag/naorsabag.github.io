@@ -1,0 +1,22 @@
+{
+  "name": "naorsabag.github.io",
+  "version": "1.0.0",
+  "description": "a landing page",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naorsabag/naorsabag.github.io.git"
+  },
+  "author": "naorsabag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naorsabag/naorsabag.github.io/issues"
+  },
+  "homepage": "https://github.com/naorsabag/naorsabag.github.io#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.3"
+  }
+}
