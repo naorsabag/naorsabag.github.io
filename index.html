@@ -1,5 +1,6 @@
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <div class="component">
@@ -18,7 +19,25 @@
                 <a href="https://medium.com/@naor.sg">blog</a> |
                 <a href="https://github.com/naorsabag?tab=repositories">projects</a>
             </div>
+            <div class="github-card" data-user="naorsabag" data-repo="test"></div>
+            <script src="https://cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
         </div>
     </div>
+    <section id="blog" class="blog">
+        <div class="blog__header">
+          <p class="blog__header1">some of my</p>
+          <h2 class="blog__header2">Medium
+            <span class="blog__header2Span">posts</span>
+          </h2>
+        </div>
+        <ul class="blog__slider">
+          Posts go here
+        </ul>
+        <ul class="blog__counter">
+          <li class="blog__counterItem blog__counterItem-active"></li>
+          <li class="blog__counterItem"></li>
+          <li class="blog__counterItem"></li>
+        </ul>
+      </section>
 </body>
 <footer></footer>
