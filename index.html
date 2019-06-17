@@ -1,6 +1,6 @@
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="component">
@@ -15,29 +15,36 @@
             </div>
             
             <div class="links">
-                <a href="/">about</a> |
-                <a href="https://medium.com/@naor.sg">blog</a> |
-                <a href="https://github.com/naorsabag?tab=repositories">projects</a>
+                <div class="link">
+                    <a href="/">
+                        <div class="link-icon">
+                                <img class="about-icon" src="https://img.icons8.com/windows/32/000000/linkedin.png">
+                        </div>
+                        <div class="link-txt">about</div>
+                    </a>
+                    <div class="link-divider">|</div>
+                </div>
+                <div class="link">
+                    <a href="https://medium.com/@naor.sg">
+                        <div class="link-icon">
+                                <img class="blog-icon" src="https://img.icons8.com/material/24/000000/medium-logo.png" height="22" width="22">
+                        </div>
+                        <div class="link-txt">blog</div>
+                    </a>
+                    <div class="link-divider">|</div>
+                </div>
+                <div class="link">
+                    <a href="https://github.com/naorsabag?tab=repositories" >
+                        <div class="link-icon">
+                                <img class="projects-icon" src="https://img.icons8.com/material-sharp/32/000000/github.png" height="22" width="22">
+                        </div>
+                        <div class="link-txt">projects</div>
+                    </a>
+                </div>
             </div>
-            <div class="github-card" data-user="naorsabag" data-repo="test"></div>
-            <script src="https://cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
         </div>
     </div>
-    <section id="blog" class="blog">
-        <div class="blog__header">
-          <p class="blog__header1">some of my</p>
-          <h2 class="blog__header2">Medium
-            <span class="blog__header2Span">posts</span>
-          </h2>
-        </div>
-        <ul class="blog__slider">
-          Posts go here
-        </ul>
-        <ul class="blog__counter">
-          <li class="blog__counterItem blog__counterItem-active"></li>
-          <li class="blog__counterItem"></li>
-          <li class="blog__counterItem"></li>
-        </ul>
-      </section>
 </body>
-<footer></footer>
+<footer>
+    <a href="https://icons8.com/icon" style="color: rgb(255, 255, 255)">icons by Icons8</a>
+</footer>
