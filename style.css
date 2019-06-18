@@ -1,13 +1,13 @@
 .component {
-    width: 300px;
-	height: 250px;
-	
-	position: absolute;
-	top:0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-  	
+    width: 100vw;
+    height: 1vh;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+      
     margin: auto;
     
     text-align: center;
@@ -15,23 +15,17 @@
 }
 
 .content {
-    margin-bottom: 25%;
-    margin-top: 25%;
+    font-family: 'Saira Semi Condensed', sans-serif;
 }
 
 .passport img {
-    width: 100px;
-    height: 100px;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
 }
 
 .link {
-    height: 30px;
     display: inline-block;
-    font-size: 18px;
-    font-family: 'Saira Semi Condensed', sans-serif;
 }
 
 a {
@@ -40,31 +34,158 @@ a {
     text-align: center
 }
 
-.link-txt, .link-divider, .link-icon{
+.link-txt{
     float: left;
 }
 
 .link-divider {
-    margin-left: 5px;
-    margin-left: 5px;
+    float: left;
+    font-weight: bold;
 }
 
 .link-icon{
-    margin-right: 2px;
+    float: left;
 }
 
-.about-icon{
-    margin-top:-5px;
+@media only screen and (max-width: 400px) {
+    
+    .passport img {
+        width: 26%;
+    }
+    
+    .title {
+        font-size: 4vw;
+    }
+    
+    .links{
+        margin-left: 8%;
+        width: 88%;
+    }
+    
+    .link-txt{
+        font-size: 5vw;
+    }
+    
+    .link-divider {
+        margin-left: 4vw;
+        margin-right: 4vw;
+        margin-top: -1vw;
+        font-size: 6vw;
+    }
+    
+    .link-icon{
+        margin-right: 1vw;
+    }
+    
+    [class*="-icon-img"] {
+        width: 5vw;
+    }
+    
+    .about-icon-img{
+        width: 6vw;
+        margin-top: 1vw;
+    }
+    
+    .blog-icon-img {
+        margin-top: 1.5vw;
+    }
+    
+    .projects-icon-img {
+        margin-top: 1.7vw;
+    }
+    
 }
 
-.blog-icon {
-    margin-right: 2px;
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .passport img {
+        width: 26%;
+    }
+    
+    .title {
+        font-size: 4vw;
+    }
+    
+    .links{
+        margin-left: 8%;
+        width: 88%;
+    }
+    
+    .link-txt{
+        font-size: 5vw;
+    }
+    
+    .link-divider {
+        margin-left: 4vw;
+        margin-right: 4vw;
+        margin-top: -1vw;
+        font-size: 6vw;
+    }
+    
+    .link-icon{
+        margin-right: 1vw;
+    }
+    
+    [class*="-icon-img"] {
+        width: 5vw;
+    }
+    
+    .about-icon-img{
+        width: 6vw;
+        margin-top: 1vw;
+    }
+    
+    .blog-icon-img {
+        margin-top: 1.5vw;
+    }
+    
+    .projects-icon-img {
+        margin-top: 1.7vw;
+    }
 }
 
-.projects-icon {
-    margin-right: 2px;
-}
-
-.link-divider {
-    font-size: 25px;
+@media only screen and (min-width: 961px) {
+    .passport img {
+        width: 7%;
+    }
+    
+    .title {
+        font-size: 1.3vw;
+    }
+    
+    .links{
+        margin-left: 8%;
+        width: 85%;
+    }
+    
+    .link-txt{
+        font-size: 2vw;
+    }
+    
+    .link-divider {
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-top: 0vw;
+        font-size: 2.0vw;
+    }
+    
+    .link-icon{
+        margin-right: 0.5vw;
+    }
+    
+    [class*="-icon-img"] {
+        width: 2vw;
+    }
+    
+    .about-icon-img{
+        width: 2.5vw;
+        margin-top: 0.5vw;
+    }
+    
+    .blog-icon-img {
+        margin-top: 0.7vw;
+    }
+    
+    .projects-icon-img {
+        margin-top: 0.7vw;
+    }
 }
