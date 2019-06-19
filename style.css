@@ -47,7 +47,7 @@ a {
     float: left;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
     
     .passport img {
         width: 26%;
@@ -96,29 +96,29 @@ a {
     
 }
 
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 420px) and (max-width: 960px) {
     .passport img {
-        width: 26%;
+        width: 12%;
     }
     
     .title {
-        font-size: 4vw;
+        font-size: 2vw;
     }
     
     .links{
         margin-left: 8%;
-        width: 88%;
+        width: 87%;
     }
     
     .link-txt{
-        font-size: 5vw;
+        font-size: 3vw;
     }
     
     .link-divider {
-        margin-left: 4vw;
-        margin-right: 4vw;
-        margin-top: -1vw;
-        font-size: 6vw;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        margin-top: -0.5vw;
+        font-size: 3.5vw;
     }
     
     .link-icon{
@@ -126,20 +126,20 @@ a {
     }
     
     [class*="-icon-img"] {
-        width: 5vw;
+        width: 3.5vw;
     }
     
     .about-icon-img{
-        width: 6vw;
-        margin-top: 1vw;
+        width: 4vw;
+        margin-top: 0.5vw;
     }
     
     .blog-icon-img {
-        margin-top: 1.5vw;
+        margin-top: 0.5vw;
     }
     
     .projects-icon-img {
-        margin-top: 1.7vw;
+        margin-top: 0.7vw;
     }
 }
 
@@ -154,7 +154,7 @@ a {
     
     .links{
         margin-left: 8%;
-        width: 85%;
+        width: 86%;
     }
     
     .link-txt{
@@ -173,16 +173,16 @@ a {
     }
     
     [class*="-icon-img"] {
-        width: 2vw;
+        width: 2.0vw;
     }
     
     .about-icon-img{
-        width: 2.5vw;
+        width: 2.3vw;
         margin-top: 0.5vw;
     }
     
     .blog-icon-img {
-        margin-top: 0.7vw;
+        margin-top: 0.6vw;
     }
     
     .projects-icon-img {
