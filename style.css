@@ -1,3 +1,4 @@
+
 .component {
     width: 100vw;
     height: 1vh;
@@ -42,6 +43,21 @@
     transition: margin-top 0.3s ease 0s;
 }
 
+/* Ripple effect
+.link-content {
+    background-position: center;
+    transition: background 0.8s;
+        border-radius: 10%;
+  }
+  .link-content:hover {
+    background: #ffffff radial-gradient(circle, transparent 1%, #ffffff 1%) center/15000%;
+  }
+  .link-content:active {
+    background-color: #6eb9f7;
+    background-size: 100%;
+    transition: background 0s;
+  } */
+
 .link-content:hover, .link-content:active {
     margin-top: -5px;
     font-size: 6px;
@@ -50,7 +66,8 @@
 a {
     text-decoration: none;
     color: black;
-    text-align: center
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .link-txt{
@@ -208,3 +225,4 @@ a {
         margin-top: 0.7vw;
     }
 }
+

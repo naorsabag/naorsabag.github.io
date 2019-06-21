@@ -1,22 +1,23 @@
 
 var elemCollection = document.getElementsByClassName("title-brackets"); 
-var currSeconde = 0.0;
-var duration = 50.0;
 var delayInterval = setInterval(delay, 200);
 function delay() {
     clearInterval(delayInterval);
+    var currFrame = 0.0;
+    var duration = 50.0;
     var frameInterval = setInterval(frame, 10);
     function frame() {
-        if (currSeconde == duration) {
+        if (currFrame == duration) {
             clearInterval(frameInterval);
         } else {
-            currSeconde++; 
-            
+            currFrame++; 
+            var scalar = 1000/screen.width;
+            scalar = scalar > 1 ? scalar : 1;
             for (let element of elemCollection) {
-                var currentFarme = currSeconde/duration;
-                element.style.opacity = currentFarme; 
-                element.style.marginLeft = currentFarme + 'vw';
-                element.style.marginRight = currentFarme + 'vw';
+                var percent = currFrame/duration;
+                element.style.opacity = percent; 
+                element.style.marginLeft = percent*scalar + 'vw';
+                element.style.marginRight = percent* scalar + 'vw';
             }
         }
     }
