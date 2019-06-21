@@ -24,8 +24,27 @@
     border-radius: 50%;
 }
 
+.title {
+    display: inline-flex;
+    
+}
+
+.title-brackets {
+    opacity: 0;
+}
+
 .link {
     display: inline-block;
+}
+
+.link-content {
+    float: left;
+    transition: margin-top 0.3s ease 0s;
+}
+
+.link-content:hover, .link-content:active {
+    margin-top: -5px;
+    font-size: 6px;
 }
 
 a {
